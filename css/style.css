@@ -1,0 +1,50 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff5e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.width-1k{
+    width: 1000px;
+}
+.my-bg-red{
+    background-color: #d33359;
+}
+
+.my-color-red{
+    color: #d33359;
+}
+.btn-primary{
+    background-color: #fdbb40;
+    border-color: #fdbb40;
+    color: #0d0a03;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #fda501;
+    border-color: #ffa600;
+    color: #201e19;
+    font-weight: bold;
+}
+#heading{
+
+    background-color: #fdbb40;
+    height: 10vh;
+}
+#main-section{
+    background-color: #ffffff;
+    height: 80vh;
+}
+#form-control {
+    background-color:#fff5e2;
+    border-color: #fff5e2;
+}
+#foot{
+    height: 10vh;
+}
