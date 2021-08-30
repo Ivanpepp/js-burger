@@ -29,15 +29,15 @@
             <div class="container">
                 <div class="row">
                     <div class="input-group input-group-lg  pt-5 px-5  mb-5">
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Name Your Burger" >
+                        <input id='burger-name'type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Name Your Burger" >
                     </div>
                    <h2 class="col-12 px-5 mb-4">
                        Ingredients
                    </h2>
                    <div class="col-12 col-md-6 px-5">
                             <div class="form-check">
-                                <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label " for="flexCheckDefault">
+                                <input class="form-check-input my-bg-red" type="checkbox" value="" id="formaggio">
+                                <label class="form-check-label " for="">
                                 Cheese
                                 </label>
                                 <span class="my-color-red ps-2">Add</span>
@@ -45,8 +45,8 @@
                     </div>
                     <div class="col-12 col-md-6 px-5">
                         <div class="form-check">
-                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label " for="flexCheckDefault">
+                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="pomodoro">
+                            <label class="form-check-label " for="">
                             Tomato
                             </label>
                             <span class="my-color-red ps-2">Add</span>
@@ -54,8 +54,8 @@
                     </div>
                     <div class="col-12 col-md-6 px-5">
                         <div class="form-check">
-                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label " for="flexCheckDefault">
+                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="uova">
+                            <label class="form-check-label " for="">
                             Egg
                             </label>
                             <span class="my-color-red ps-2">Add</span>
@@ -63,8 +63,8 @@
                     </div>
                     <div class="col-12 col-md-6 px-5">
                         <div class="form-check">
-                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label " for="flexCheckDefault">
+                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="lattuga">
+                            <label class="form-check-label " for="">
                             Lettuce
                             </label>
                             <span class="my-color-red ps-2">Add</span>
@@ -74,8 +74,8 @@
                         
                         <div class="form-check">
                             
-                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label " for="flexCheckDefault">
+                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="mostarda">
+                            <label class="form-check-label " for="">
                             Mustard
                             </label>
                             <span class="my-color-red ps-2">Add</span>
@@ -83,8 +83,8 @@
                     </div>
                     <div class="col-12 col-md-6 px-5">
                         <div class="form-check">
-                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label " for="flexCheckDefault">
+                            <input class="form-check-input my-bg-red" type="checkbox" value="" id="ketchup">
+                            <label class="form-check-label " for="">
                             Ketchup
                             </label>
                             <span class="my-color-red ps-2">Add</span>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center">
-                        <button type="button" class="btn btn-lg btn-primary ">Calculate</button>
+                        <button id="bottone" type="button" class="btn btn-lg btn-primary ">Calculate</button>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                         <div class="fs-3 pt-4 fw-bold">
                             Your Price
                         </div>
-                        <div class="fs-3 pt-4 fw-bold">
+                        <div class="fs-3 pt-4 fw-bold" id="somma">
                             &#36;
                         </div>
                     </div>
