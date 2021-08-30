@@ -12,6 +12,7 @@ Buon lavoro! */
 
 let prezzoPanino;
 //prendo il nome del burger che metto nella inputbox
+let listaSconti = ['hofame27','pastaefaggioli21'];
 let burgerName = document.getElementById('burger-name');
 //collego il bottone dell'html alla variabile bottone
 let bottone = document.getElementById('bottone');
@@ -40,6 +41,15 @@ function() {
                 prezzoPanino += 500000;
             }
         }
-        
+        let sconto = document.getElementById('form-control');
+        if (sconto.value.lenght > 0){
+            if(listaSconti.includes(sconto.value)){
+                prezzoPanino = prezzoPanino * 0.8; //cosi calcoliamo lo sconto
+            }else{
+                alert('il coupon inserito non esiste');
+            }
+        }
+        let totale = document.getElementById('risultato');
+        totale.innerHTML = '&#36; ' + prezzoPanino;
     }
 });
