@@ -42,7 +42,7 @@ function() {
             }
         }
         let sconto = document.getElementById('form-control');
-        if (sconto.value.lenght > 0){
+        if (sconto.value.length > 0){
             if(listaSconti.includes(sconto.value)){
                 prezzoPanino = prezzoPanino * 0.8; //cosi calcoliamo lo sconto
             }else{
